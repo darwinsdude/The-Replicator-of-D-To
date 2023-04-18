@@ -1,0 +1,30 @@
+int[] list = new int[5];
+
+
+    Console.WriteLine("Enter 1st number");
+    int num1 = Convert.ToInt32(Console.ReadLine());
+    num1 = list[0];
+
+    Console.WriteLine("Enter 2nd number");
+    int num2 = Convert.ToInt32(Console.ReadLine());
+    num2 = list[1];
+
+    Console.WriteLine("Enter 3rd number");
+    int num3 = Convert.ToInt32(Console.ReadLine());
+    num3 = list[2];
+
+    Console.WriteLine("Enter 4th number");
+    int num4 = Convert.ToInt32(Console.ReadLine());
+    num4 = list[3];
+
+    Console.WriteLine("Enter 5th number");
+    int num5 = Convert.ToInt32(Console.ReadLine());
+    num5 = list[4];
+
+Console.WriteLine(list);
+
+
+
+
+
+Console.ReadLine();
